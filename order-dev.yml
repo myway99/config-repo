@@ -14,3 +14,5 @@ eureka:
       defaultZone: http://192.168.1.76:8761/eureka/
 env:
   dev
+label:
+  release
