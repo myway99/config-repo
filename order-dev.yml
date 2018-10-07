@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: aA111111
+    url: jdbc:mysql://192.168.1.76:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.76:8761/eureka/
+env:
+  dev
