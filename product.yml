@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: aA111111
+    url: jdbc:mysql://192.168.1.76:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: false
+  rabbitmq:
+    addresses: 192.168.1.76:5672
+    username: guest
+    password: guest
+    virtual-host: /
+#    connection-timeout: 15000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.76:8761/eureka,http://192.168.1.76:8762/eureka,http://192.168.1.76:8763/eureka
