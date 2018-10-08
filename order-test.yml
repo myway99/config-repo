@@ -20,3 +20,6 @@ eureka:
       defaultZone: http://192.168.1.76:8761/eureka/
 env:
   test4
+girl:
+  name: lili
+  age: 18
