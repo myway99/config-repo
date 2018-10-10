@@ -1,0 +1,17 @@
+zuul:
+  routes:
+# /myProduct1/product/list  ->  /product/product/list
+    myroute1:
+      path: /myProduct1/**
+      serviceId: product
+# not filter cookie
+      sensitiveHeaders:
+# simple
+#    product: /myProduct2/**
+  ignored-patterns:
+    - /**/product/listForOrder
+#    - /product/product/listForOrder
+#    - /myProduct/product/listForOrder
+management:
+  security:
+    enabled: false
