@@ -14,6 +14,10 @@ zuul:
     - /**/product/listForOrder
 #    - /product/product/listForOrder
 #    - /myProduct/product/listForOrder
+spring:
+  redis:
+    host: 192.168.1.76
+    port: 6379
 management:
   security:
     enabled: false
