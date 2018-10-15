@@ -27,10 +27,13 @@ spring:
 management:
   security:
     enabled: false
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 8000
+ribbon:
+  ReadTimeout: 8000
+  SocketTimeout: 8000
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 8000
