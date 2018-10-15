@@ -23,9 +23,9 @@ spring:
   sleuth:
     sampler:
       percentage: 1
-logging:
-  level:
-    org.springframework.cloud.netflix.feign: debug
+#logging:
+#  level:
+#    org.springframework.cloud.netflix.feign: debug
 eureka:
   client:
     service-url:
