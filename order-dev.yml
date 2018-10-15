@@ -34,3 +34,10 @@ eureka:
 girl:
   name: lili
   age: 19
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 8000
+        readTimeout: 8000
+        loggerLevel: basic
