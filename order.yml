@@ -13,10 +13,10 @@ spring:
     port: 5672
     username: guest
     password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://192.168.1.76:8761/eureka,http://192.168.1.76:8762/eureka,http://192.168.1.76:8763/eureka
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://192.168.1.76:8761/eureka,http://192.168.1.76:8762/eureka,http://192.168.1.76:8763/eureka
 #设置负载均衡规则：默认为轮询
 #PRODUCT:
 #  ribbon:
