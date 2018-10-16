@@ -25,12 +25,12 @@ spring:
       percentage: 1
 env:
   dev
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:8761/eureka,http://eureka2:8762/eureka
-  instance:
-    prefer-ip-address: true
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka1:8761/eureka,http://eureka2:8762/eureka
+#  instance:
+#    prefer-ip-address: true
 girl:
   name: lili
   age: 19
@@ -38,6 +38,6 @@ feign:
   client:
     config:
       default:
-        connectTimeout: 8000
-        readTimeout: 8000
+        connectTimeout: 9000
+        readTimeout: 9000
         loggerLevel: basic
