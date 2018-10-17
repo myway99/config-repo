@@ -22,7 +22,8 @@ spring:
       type: web
   sleuth:
     sampler:
-      percentage: 1
+#      percentage: 1
+      probability: 1
 #eureka:
 #  client:
 #    service-url:
