@@ -13,9 +13,9 @@ spring:
     port: 5672
     username: guest
     password: guest
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:8761/eureka,http://eureka2:8762/eureka
-  instance:
-    prefer-ip-address: true
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka1:8761/eureka,http://eureka2:8762/eureka
+#  instance:
+#    prefer-ip-address: true
