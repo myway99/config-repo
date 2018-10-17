@@ -34,7 +34,7 @@ env:
 #    prefer-ip-address: true
 girl:
   name: lili
-  age: 16
+  age: 10
 feign:
   client:
     config:
