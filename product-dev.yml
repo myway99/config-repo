@@ -24,9 +24,10 @@ spring:
     sampler:
 #      percentage: 1
       probability: 1
-#logging:
-#  level:
-#    org.springframework.cloud.netflix.feign: debug
+logging:
+  level:
+    org.springframework.cloud.netflix.feign: debug
+    org.springframework.cloud.bus: debug
 #eureka:
 #  client:
 #    service-url:
